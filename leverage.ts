@@ -351,6 +351,7 @@ export async function leverage() {
     const value = new BigNumber(virtValue.toString()).minus(borrowValue);
 
     console.log({
+      namePool: o.farmInfo.leverageInfo.name,
       r0Bal: r0Bal.toString(),
       r1Bal: r1Bal.toString(),
       poolTVL: poolTVL.toString(),
