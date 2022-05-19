@@ -32,6 +32,27 @@ npm start
 `https://gist.github.com/therealssj/fdf9daacbb46e9558c3680f7c30d8072`
 
 ## repositories with information
-```https://github.com/cpor3/solfarm_vaults
+```
+https://github.com/cpor3/solfarm_vaults
 https://github.com/cryptol0g1c/solfarm-leveragedpools
-https://github.com/sol-farm/tulip-js-api```
+https://github.com/sol-farm/tulip-js-api
+```
+
+
+### Example result
+
+```
+Wallet: DtANtrjHY3DeT2t4qZWMmwcTtDQneq3QRHWeBRepyvw3
+{
+  namePool: 'SOL-USDC-RAY',
+  r0Bal: '530166',
+  r1Bal: '26182132',
+  poolTVL: '52690432',
+  virtValue: '131',
+  borrowValue: 84.79902431163546,
+  borrowAmount: 1.6719050534628441,
+  borrowedAsset: 'Wrapped SOL',
+  value: 46.200975688364544,
+  debtRatios: 0.6473207962720263
+}
+```
